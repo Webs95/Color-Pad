@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  width: 700px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  background-color: #167a6f00;
+  width: 20px;
+  height: 20px;
+  margin: 1px;
+  box-shadow: 0 0 2px #2feed7;
+  transition: 1.9s ease;
+  border-radius: 20%;
+}
+
+.box:hover {
+  transition-duration: 0s;
+}
